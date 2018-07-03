@@ -7,6 +7,29 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <TreeView x:Name="ListofContent" Grid.Column="0"
+                      ItemsSource="{Binding Source={StaticResource contentProvider}, 
+                XPath=document}"
+                      SelectedValuePath="@id">
+            <TreeView.ItemTemplate>
+                <HierarchicalDataTemplate ItemsSource="{Binding XPath=item}">
+                    <WrapPanel Margin="0 4">
+                        <Image Source="{Binding XPath=@icon}" Width="26"/>
+                        <Label Content="{Binding XPath=@title}"/>
+                    </WrapPanel>
+                </HierarchicalDataTemplate>
+            </TreeView.ItemTemplate>
+        </TreeView>
+        <GridSplitter Grid.Column="1" Width="3" 
+                                  VerticalAlignment="Stretch"
+                                  HorizontalAlignment="Center"/>
+        <Grid Grid.Column="2">
+            <FlowDocumentReader x:Name="Reader"></FlowDocumentReader>
+        </Grid>
     </Grid>
 </Window>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document id="000" title="Автомобили" icon="Icons/car.ico">
+  <item id="100" title="Легковые" icon="Icons/dir.ico">
+  </item>
+  <item id="200" title="Мото" icon="Icons/moto.ico">
+  </item>
+  <item id="300" title="Водный транспорт" icon="Icons/water.ico"> </item>
+  <item id="400" title="Автобусы" icon="Icons/bus.ico"> </item>
+</document>

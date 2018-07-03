@@ -55,6 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="Dictionary\DataProviders.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dictionary\Style.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -94,6 +102,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Data\CarCatalog.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\if_sedan_285810.png" />
+    <Resource Include="Icons\sportcar.png" />
+    <Resource Include="Icons\if_SUV_285812.png" />
+    <Resource Include="Icons\if_truck_285813.png" />
+    <Resource Include="Icons\if_van_285814.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\bus.ico" />
+    <Resource Include="Icons\water.ico" />
+    <Resource Include="Icons\moto.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\car.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
