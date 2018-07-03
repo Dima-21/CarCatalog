@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,6 +9,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
 using System.Windows.Input;
+using System.Windows.Markup;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
@@ -23,6 +25,21 @@ namespace CarCatalog
         public MainWindow()
         {
             InitializeComponent();
+        }
+
+        private void ListofContent_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            try
+            {
+                String key = ListofContent.SelectedValue.ToString();
+                String path = @"..\..\Data\" + key + ".xaml";
+
+                Reader.Document = (FlowDocument)XamlReader.Load(File.OpenRead(path));
+            }
+            catch (Exception err)
+            {
+                MessageBox.Show("Файл не найден", "Сообщение", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
     }
 }

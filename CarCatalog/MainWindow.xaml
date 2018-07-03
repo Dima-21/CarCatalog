@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CarCatalog"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        WindowState="Maximized"
+        Title="MainWindow" Height="500" Width="600">
     <Grid>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
@@ -14,12 +15,12 @@
         </Grid.ColumnDefinitions>
         <TreeView x:Name="ListofContent" Grid.Column="0"
                       ItemsSource="{Binding Source={StaticResource contentProvider}, 
-                XPath=document}"
-                      SelectedValuePath="@id">
+                XPath=document}" 
+                  SelectedValuePath="@id" SelectedItemChanged="ListofContent_SelectedItemChanged">
             <TreeView.ItemTemplate>
-                <HierarchicalDataTemplate ItemsSource="{Binding XPath=item}">
+                <HierarchicalDataTemplate ItemsSource="{Binding XPath=car}">
                     <WrapPanel Margin="0 4">
-                        <Image Source="{Binding XPath=@icon}" Width="26"/>
+                        <Image Source="{Binding XPath=@icon}" Width="40"/>
                         <Label Content="{Binding XPath=@title}"/>
                     </WrapPanel>
                 </HierarchicalDataTemplate>

@@ -1,9 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <document id="000" title="Автомобили" icon="Icons/car.ico">
-  <item id="100" title="Легковые" icon="Icons/dir.ico">
-  </item>
-  <item id="200" title="Мото" icon="Icons/moto.ico">
-  </item>
-  <item id="300" title="Водный транспорт" icon="Icons/water.ico"> </item>
-  <item id="400" title="Автобусы" icon="Icons/bus.ico"> </item>
+  <car id="100" title="Легковые" icon="Icons/car.ico">
+    <car id="101" title="Седан" icon="Icons/sedan.png">
+      <car id="102" title="Седан" icon="Icons/sedan.png">
+      </car>
+    </car>
+    <car id="120" title="Внедорожник/Кроссовер" icon="Icons/jeep.png">
+      <car id="121" title="Седан" icon="Icons/sedan.png">
+      </car>
+    </car>
+    <car id="150" title="Минивэн" icon="Icons/miniven.png">
+      <car id="151" title="Седан" icon="Icons/sedan.png">
+      </car>
+    </car>
+    <car id="180" title="Купе" icon="Icons/sportcar.png">
+      <car id="181" title="Седан" icon="Icons/sedan.png">
+      </car>
+    </car>
+  </car>
+
+  <car id="200" title="Мото" icon="Icons/moto.ico">
+  </car>
+  <car id="300" title="Водный транспорт" icon="Icons/water.ico"> </car>
+  <car id="400" title="Автобусы" icon="Icons/bus.ico"> </car>
 </document>

@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
                     xmlns:local="clr-namespace:CarCatalog.Dictionary">
     <Style x:Key="baseFont">
-        <Setter Property="Control.FontFamily" Value="Times New Roman"/>
+        <Setter Property="Control.FontFamily" Value="Trebuchet MS"/>
         <Setter Property="Control.Padding" Value="5"/>
     </Style>
 
