@@ -2,20 +2,16 @@
 <document id="000" title="Автомобили" icon="Icons/car.ico">
   <car id="100" title="Легковые" icon="Icons/car.ico">
     <car id="101" title="Седан" icon="Icons/sedan.png">
-      <car id="102" title="Седан" icon="Icons/sedan.png">
-      </car>
+      <car id="102" title="Honda Accord 2.4 AT SPORT" icon="Icons/car2.ico"/>
     </car>
-    <car id="120" title="Внедорожник/Кроссовер" icon="Icons/jeep.png">
-      <car id="121" title="Седан" icon="Icons/sedan.png">
-      </car>
+    <car id="120" title="Внедорожник/Кроссовер" icon="Icons/jeep.jpg">
+      <car id="121" title="Седан" icon="Icons/car2.ico"/>
     </car>
     <car id="150" title="Минивэн" icon="Icons/miniven.png">
-      <car id="151" title="Седан" icon="Icons/sedan.png">
-      </car>
+      <car id="151" title="Седан" icon="Icons/car2.ico"/>
     </car>
     <car id="180" title="Купе" icon="Icons/sportcar.png">
-      <car id="181" title="Седан" icon="Icons/sedan.png">
-      </car>
+      <car id="181" title="Седан" icon="Icons/car2.ico"/>
     </car>
   </car>
 

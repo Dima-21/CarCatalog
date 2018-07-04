@@ -1,0 +1,18 @@
+﻿<FlowDocument 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        IsHyphenationEnabled="True"
+        IsOptimalParagraphEnabled="True" >
+    <FlowDocument.Resources>
+        <Style TargetType="Paragraph">
+            <Setter Property="FontFamily" Value="Trebuchet MS"/>
+            <Setter Property="FontSize" Value="23"/>
+        </Style>
+    </FlowDocument.Resources>
+    <Paragraph FontSize="90" Foreground="DarkSeaGreen">
+        Внедорожник
+    </Paragraph>
+    <Paragraph>
+        <Bold>Внедорожник</Bold> — автомобиль, обладающий повышенной проходимостью по бездорожью за счёт высокого клиренса, ведущих передних и задних колёс.
+    </Paragraph>
+</FlowDocument>

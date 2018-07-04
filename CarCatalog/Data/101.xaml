@@ -1,0 +1,21 @@
+﻿<FlowDocument 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        IsHyphenationEnabled="True"
+        IsOptimalParagraphEnabled="True" >
+    <FlowDocument.Resources>
+        <Style TargetType="Paragraph">
+            <Setter Property="FontFamily" Value="Trebuchet MS"/>
+            <Setter Property="FontSize" Value="23"/>
+        </Style>
+    </FlowDocument.Resources>
+    <Paragraph FontSize="90" Foreground="DarkSeaGreen">
+        Седан
+    </Paragraph>
+    <Paragraph >
+        <Bold>Седан</Bold> — закрытый кузов легкового автомобиля с багажником, структурно отделённым от пассажирского салона (на ранних автомобилях багажник обычно имел вид прикреплённого к задней стенке кузова чемодана-кофра или отсутствовал), без подъёмной двери в задней стенке, обычно с двумя или тремя (например, ЗИМ или «Чайка» ГАЗ-14) рядами полноразмерных сидений.
+    </Paragraph>
+    <Paragraph>
+        Данный тип кузова является наиболее распространённым среди кузовов легковых автомобилей
+    </Paragraph>
+</FlowDocument>

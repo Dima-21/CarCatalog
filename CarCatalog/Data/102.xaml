@@ -1,0 +1,58 @@
+﻿<FlowDocument 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        IsHyphenationEnabled="True"
+        IsOptimalParagraphEnabled="True" >
+    <FlowDocument.Resources>
+        <Style TargetType="Paragraph">
+            <Setter Property="FontFamily" Value="Trebuchet MS"/>
+            <Setter Property="FontSize" Value="23"/>
+        </Style>
+    </FlowDocument.Resources>
+
+    <Paragraph FontSize="90" Foreground="DarkSeaGreen">
+        Honda Accord 2.4 AT SPORT
+    </Paragraph>
+    <Section>
+        <Section>
+            <Paragraph>
+                <Floater HorizontalAlignment="Right" Width="400">
+                    <BlockUIContainer >
+                        <Image Source="Images/honda_accord_1.jpg" Width="400"/>
+                    </BlockUIContainer>
+                </Floater>
+            </Paragraph>
+        </Section>
+        <Section>
+            <List FontSize="10" MarkerStyle="Square">
+                <ListItem>
+                    <Paragraph>Двигатель: 2.4 Earth Dreams</Paragraph>
+                </ListItem>
+                <ListItem>
+                    <Paragraph>Тип топлива: Бензин</Paragraph>
+                </ListItem>
+                <ListItem>
+                    <Paragraph>Объем двигателя, куб.см: 2356</Paragraph>
+                </ListItem>
+                <ListItem>
+                    <Paragraph>Мощность, л.с.: 180</Paragraph>
+                </ListItem>
+                <ListItem>
+                    <Paragraph>Максимальная скорость, км/ч.: 210</Paragraph>
+                </ListItem>
+                <ListItem>
+                    <Paragraph>Количество мест: 5</Paragraph>
+                </ListItem>
+
+            </List>
+        </Section>
+    </Section>
+    <Paragraph >
+        Новый Honda Accord образца 2013 года демонстрирует очередной прорыв. Впервые автомобиль получил двигатели объемом 2,4 и 3,5 литра. В передней подвеске впервые использована стоечная конструкция (МакФерсон) со стабилизатором поперечной устойчивости. Кроме того, у себя на родине в Японии автомобиль впервые предлагается только в гибридных версиях. Автомобиль получил значительно обновленный внешний вид и салон и по-прежнему предусматривает очень богатое оснащение.
+    </Paragraph>
+    <Paragraph>
+        <Image Source="Images/honda_accord_2.jpg" Width="400" Margin="10"/>
+        <Image Source="Images/honda_accord_3.jpg" Width="400" Margin="10"/>
+        <Image Source="Images/honda_accord_4.jpg" Width="400" Margin="10"/>
+    </Paragraph>
+</FlowDocument>
