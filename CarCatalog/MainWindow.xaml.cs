@@ -38,7 +38,7 @@ namespace CarCatalog
             }
             catch (Exception err)
             {
-                MessageBox.Show("Файл не найден", "Сообщение", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Данная страница каталога находится в разработке", "Сообщение", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
     }

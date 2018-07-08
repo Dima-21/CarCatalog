@@ -18,7 +18,7 @@
             <Paragraph>
                 <Floater HorizontalAlignment="Right" Width="400">
                     <BlockUIContainer >
-                        <Image Source="Images/honda_accord_1.jpg" Width="400"/>
+                        <Image Source="Images/honda_accord_1.jpg" Width="350"/>
                     </BlockUIContainer>
                 </Floater>
             </Paragraph>
@@ -51,8 +51,8 @@
         Новый Honda Accord образца 2013 года демонстрирует очередной прорыв. Впервые автомобиль получил двигатели объемом 2,4 и 3,5 литра. В передней подвеске впервые использована стоечная конструкция (МакФерсон) со стабилизатором поперечной устойчивости. Кроме того, у себя на родине в Японии автомобиль впервые предлагается только в гибридных версиях. Автомобиль получил значительно обновленный внешний вид и салон и по-прежнему предусматривает очень богатое оснащение.
     </Paragraph>
     <Paragraph>
-        <Image Source="Images/honda_accord_2.jpg" Width="400" Margin="10"/>
-        <Image Source="Images/honda_accord_3.jpg" Width="400" Margin="10"/>
-        <Image Source="Images/honda_accord_4.jpg" Width="400" Margin="10"/>
+        <Image Source="Images/honda_accord_2.jpg" Width="380" Margin="10"/>
+        <Image Source="Images/honda_accord_3.jpg" Width="380" Margin="10"/>
+        <Image Source="Images/honda_accord_4.jpg" Width="380" Margin="10"/>
     </Paragraph>
 </FlowDocument>
